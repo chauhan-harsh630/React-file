@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   let [counter, setconter] = useState(0);
   function update() {
-  setconter(counter + 1)
+    setconter(counter+1)
     }
 
   function remove() {
