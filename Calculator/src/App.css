@@ -1,0 +1,54 @@
+.box {
+  width: 220px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #6a6363;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+button {
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: bisque;
+}
+button:hover {
+  filter: brightness(1.1);
+}
+
+.operator {
+  background-color: rgb(238, 157, 6);
+}
+.clear {
+  background-color: red;
+  color: white;
+  grid-column: span 2;
+}
+.equal {
+  background-color: rgb(91, 134, 27);
+  color: white;
+  grid-column: span 2;
+}
+.zero {
+  background-color: rgba(31, 29, 29, 0.811);
+  color: white;
+  grid-column: span 2;
+}
