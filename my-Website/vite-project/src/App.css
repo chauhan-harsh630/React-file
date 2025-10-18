@@ -1,0 +1,72 @@
+/* NAVBAR */
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: rgb(237, 178, 136);
+  border-radius: 5px;
+}
+
+.container h1 {
+  flex: 1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  color: rgb(111, 49, 4);
+  font-weight: 900;
+}
+
+.container a {
+  text-decoration: none;
+  color: darkcyan;
+  font-size: larger;
+  font-family: cursive;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+.container a:hover {
+  color: rgb(59, 27, 5);
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  background-color: chocolate;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  background-color: rgb(83, 41, 11);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: fantasy;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-weight: 400;
+  font-size: larger;
+  color: white;
+  line-height: 1.6;
+}
+
+.hero-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(14, 0, 0, 0.3);
+}
